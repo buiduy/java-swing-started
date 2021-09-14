@@ -1,4 +1,4 @@
-package com.bidu.swing.awt;
+package com.bidu.swing.awt.app;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
