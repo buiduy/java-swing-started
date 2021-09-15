@@ -32,6 +32,16 @@ public class AWTEventView extends Frame {
         add(label2);
         //endregion
 
+        //region TextField
+        TextField t1, t2;
+        t1 = new TextField("Welcome to AWT");
+        t1.setBounds(50, 200, 200, 30);
+        t2 = new TextField("Vi du AWT TextFiled");
+        t2.setBounds(50, 250, 200, 30);
+        add(t1);
+        add(t2);
+        //endregion
+
         setSize(400, 300);
         setLayout(null);
         setVisible(true);
