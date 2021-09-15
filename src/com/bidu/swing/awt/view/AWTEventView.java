@@ -20,6 +20,18 @@ public class AWTEventView extends Frame {
         setTitle("Vi du xu ly su kien Java AWT");
         add(button);
         add(textField);
+
+        //region Update Label
+        Label label1, label2;
+        label1 = new Label("Name");
+        label1.setBounds(50, 180, 100, 30);
+        label2 = new Label("Name 2");
+        label2.setBounds(50, 150, 100, 30);
+
+        add(label1);
+        add(label2);
+        //endregion
+
         setSize(400, 300);
         setLayout(null);
         setVisible(true);
